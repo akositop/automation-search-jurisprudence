@@ -1,6 +1,5 @@
-// src/main.js
-const { login } = require('./login');
+const { processSearches } = require('./modules/processSearches');
 
 (async () => {
-  await login();
+  await processSearches();
 })();
